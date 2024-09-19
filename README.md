@@ -4,10 +4,10 @@ Developed an Event Driven Pipeline for Increamental Load in Snowflake Table
 Extracting news data from an open-source endpoint using API and used Airflow Dag to perform tasks using python scripts to ingest the data into target Snowflake table.
 
 **Tech Stack:**
-1. Airflow
+1. Airflow : Dag to read data from api, write it in new file in google storage bucket and load data from external stage to target snowflake table
 2. Google Cloud Storage
-3. Python
-4. SnowFlake
+3. Python : To extract data from api endpoint and write data in new file in google Storage Bucket
+4. SnowFlake : To create storage integration and external stage
 
 **Steps to create pipeline:**
 
